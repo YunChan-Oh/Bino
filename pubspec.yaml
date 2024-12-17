@@ -1,0 +1,21 @@
+name: pino_app
+description: 소상공인 경영 관리 앱 - 삐노
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  path: ^1.8.0
+  font_awesome_flutter: ^10.1.0
+
+
+flutter:
+  assets:
+    - assets/
